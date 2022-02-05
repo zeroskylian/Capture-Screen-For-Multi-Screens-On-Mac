@@ -55,6 +55,11 @@ const int kKEY_ESC_CODE = 53;
 - (void)clearController
 {
     if (_windowControllerArray) {
+        for (NSWindowController *controller in _windowControllerArray) {
+            NSWindow *window = controller.window;
+            window.windowController = nil;
+            controller.window = nil;
+        }
         [_windowControllerArray removeAllObjects];
     }
 }

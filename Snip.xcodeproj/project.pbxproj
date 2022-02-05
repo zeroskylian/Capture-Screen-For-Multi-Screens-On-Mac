@@ -141,17 +141,17 @@
 				326AA0C71A7D296800507232 /* SnipView.m */,
 				326AA0C91A7D2C6000507232 /* SnipUtil.h */,
 				326AA0CA1A7D2C6000507232 /* SnipUtil.m */,
-				D265E38C1A824A0800E301D9 /* DrawPathInfo.h */,
-				D265E38D1A824A0800E301D9 /* DrawPathInfo.m */,
 				D29A35631A83581F00DD41BC /* ToolContainer.h */,
 				D29A35641A83581F00DD41BC /* ToolContainer.m */,
 				D29A35661A835E5D00DD41BC /* NSColor+Helper.h */,
 				D29A35671A835E5D00DD41BC /* NSColor+Helper.m */,
+				D29A356F1A838D6700DD41BC /* MouseEventProtocol.h */,
 				D29A35691A836AC300DD41BC /* ImageButton.h */,
 				D29A356A1A836AC300DD41BC /* ImageButton.m */,
+				D265E38C1A824A0800E301D9 /* DrawPathInfo.h */,
+				D265E38D1A824A0800E301D9 /* DrawPathInfo.m */,
 				D29A356C1A836F8000DD41BC /* DrawPathView.h */,
 				D29A356D1A836F8000DD41BC /* DrawPathView.m */,
-				D29A356F1A838D6700DD41BC /* MouseEventProtocol.h */,
 				D2AD02BB1A84A46A00426004 /* SimpleLabelView.h */,
 				D2AD02BC1A84A46A00426004 /* SimpleLabelView.m */,
 				B30E2DC5205F9915008CD6A4 /* AutoHeightTextView.h */,
@@ -303,6 +303,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
